@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <link rel="stylesheet" href="public/css/style.css">
+    <title>Quote</title>
+
+    <link
+    rel="icon"
+    type="image/png"
+    sizes="32x32"
+    href= "public/imgs/Hogan favicon.png"
+  />
+
+</head>
+
+<body class="quote">
+    <section class="showcase">
+        <header style="padding-left: 50%;">
+            <div class="toggle"></div>
+        </header>
+
+    <H1 style="padding: 15%; font-size: 35px;">Got a job you need quoted?</H1>
+
+    <div class="container" style="padding-right: 20%;">
+        
+        <div class="column">
+          
+          
+            <form action="https://formsubmit.co/38a242e2ee727d05ab62f366714fd051" method="POST" style="border: 1px solid white; display: grid; padding: 15px;">
+
+              <input type="hidden" name="_next" value="https://hoganhomeimprovement.om/thankyou.html">
+              <input type="hidden" name="_Subject" value="Quote Time, Baby!!">
+              <label for="Name">Your name</label>
+              <input type="text" id="Name" name="Name" placeholder="Your name..." required style="max-width: 60%">
+              
+              <label for="City">City</label>
+            <select id="City" name="City" required style="max-width:35%">
+                <option value="Ann Arbor">Ann Arbor</option>
+                <option value="Brighton">Brighton</option>
+                <option value="Green Oak">Green Oak</option>
+                <option value="Lyon Charter TWP">Lyon Charter TWP</option>
+                <option value="New Hudson">New Hudson</option>
+                <option value="Northville">Northville</option>
+                <option value="Novi">Novi</option>
+                <option value="Salem">Salem</option>
+                <option value="South Lyon">South Lyon</option>
+                <option value="Walled Lake">Walled Lake</option>
+                <option value="Webster">Webster</option>
+                <option value="Whitmore Lake">Whitmore Lake</option>
+                <option value="Wixom">Wixom</option>
+                <option value="Other">Other</option>
+            </select>
+
+              <label for="Phone #">Phone #</label>
+              <input type="tel" id="Phone #" name="Phone #" placeholder="Phone #..." style="width:125px;" required>
+              <br>
+              <label for="Email">Email</label>
+              <input type="Email" id="Email" name="Email" placeholder="Your Email..." style="width:250px;" required>
+              
+              <label for="quote">Project:</label>
+              <textarea id="Quote" name="Quote" placeholder="*project details here*" style="height:150px; width:500px;" required></textarea>
+                <input style="width: 100%; color: rgb(251, 73, 5); background-color:rgb(203, 161, 116);" type="submit" value="Send">
+                <input style="width: 50px; color: rgb(251, 73, 5);" type="reset" value="Reset">
+            </form>
+          </div>
+        </div>
+      </div>
+
+
+<!-------------------MENU AND SOCIAL------------------------------------------------>
+
+    <ul class="social">
+        <li><a target="_blank" href="#"><img src="https://i.ibb.co/x7P24fL/facebook.png" alt="Hogan Home Improvement Facebook"></a></li>
+        <li><a target="_blank" href="#"><img src="https://i.ibb.co/Wnxq2Nq/twitter.png" alt="Hogan Home Improvement Twitter"></a></li>
+        <li><a target="_blank" href="#"><img src="https://i.ibb.co/ySwtH4B/instagram.png" alt="Hogan Home Improvement Instagram"></a></li>
+        <li id="copyright"><a target="_blank" href="https://www.jamesrmchenry.com">&copy; 2024 James R McHenry</a></li>
+      </ul>
+</section>
+
+<div class="menu">
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+</div>
+    <script>
+        const menuToggle = document.querySelector('.toggle');
+        const showcase = document.querySelector('.showcase');
+        
+          menuToggle.addEventListener('click', () => {
+          menuToggle.classList.toggle('active');
+          showcase.classList.toggle('active');
+        })</script>
+</body>
+</html>

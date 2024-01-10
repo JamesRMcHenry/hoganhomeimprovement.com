@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <link rel="stylesheet" href="public/css/style.css">
+    <title>About</title>
+
+    <link
+    rel="icon"
+    type="image/png"
+    sizes="32x32"
+    href= "public/imgs/Hogan favicon.png"
+  />
+
+</head>
+<body class="about">
+    <section class="showcase">
+        <header>
+            <h2 class="logo">
+                <ul>
+                    <li style="list-style: none;"><a style="color:white" href="quote.html">GET QUOTE</a></li>
+                </ul>
+             </h2>            
+             <div class="toggle"></div>
+        </header>
+
+   
+    <H1 style="padding: 20px; padding-left: 10%; font-size: 35px;">About Hogan Home Improvement</H1>
+
+        <p style="padding-right: 20%;">"Hi! My name is Chris Hogan. I live in one of downtown South Lyon, Michigan's original city homes. My wife Kristina and I have spent the last 11+ years making improvements; both inside and out. I have many years of mechanical, electrical, drywall, plumbing, rough-framing, and finish-work construction experience. I have done it all; from installing single outlets to finishing entire basements. My two main focuses are quality work and customer satisfaction. I genuinely enjoy making my customer's happy with tangible improvements to their homes. 
+            <br><br>
+            When not at work... Kristina and I tackle lots of extracurricular projects (both around the house and beyond). We make a really good team. We also enjoy camping trips with our two dogs. And, I like to ski with my nephew in winter."
+            <br><br>
+            -Chris Hogan <br>
+            Owner <br>
+        </p>
+
+        <ul class="social">
+            <li><a target="_blank" href="#"><img src="https://i.ibb.co/x7P24fL/facebook.png" alt="Hogan Home Improvement Facebook"></a></li>
+            <li><a target="_blank" href="#"><img src="https://i.ibb.co/Wnxq2Nq/twitter.png" alt="Hogan Home Improvement Twitter"></a></li>
+            <li><a target="_blank" href="#"><img src="https://i.ibb.co/ySwtH4B/instagram.png" alt="Hogan Home Improvement Instagram"></a></li>
+            <li id="copyright"><a target="_blank" href="https://www.jamesrmchenry.com">&copy; 2024 James R McHenry</a></li>
+        </ul>
+    </section>
+
+    <div class="menu">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </div>
+        <script>
+            const menuToggle = document.querySelector('.toggle');
+            const showcase = document.querySelector('.showcase');
+            
+              menuToggle.addEventListener('click', () => {
+              menuToggle.classList.toggle('active');
+              showcase.classList.toggle('active');
+            })</script>
+    </body>
+</html>

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Hello. I am a contractor and small business owner located in South Lyon, Michigan. There are multiple ways to get in touch via this website!">
+    <meta name="keywords" content="South Lyon, Michigan, small business, contractor, repairs, basements, garages, living rooms, upgrades, fixes, refurbishment, custom, bathrooms">
+    <meta name="author" content="JamesRMcHenry">
+    <meta name="theme-color" content="rgb(251, 73, 5)" />
+    <meta property="og:title" content="HoganHomes.pro" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.hoganhomeimprovement.com/" />
+    <meta property="og:img" content="https://www.hoganhomeimprovement.com/public/imgs/SL%20map.png" />
+
+    <link rel="stylesheet" href="public/css/style.css">
+    <title>Hogan Home Improvement!</title>
+
+    <link
+    rel="icon"
+    type="image/png"
+    size="32x32"
+    href= "public/imgs/Hogan favicon.png"
+  />
+
+    </head>
+   <body>
+        <section class="showcase">
+         <header>
+             <h2 class="logo">
+                <ul>
+                    <li style="list-style: none;"><a style="color:white" href="quote.html">GET QUOTE</a></li>
+                </ul>
+             </h2>
+              <div class="toggle"></div>
+          </header>
+
+          <video src="Hogan placeholder.mp4" muted loop autoplay></video>
+          <div class="overlay"></div>
+         <div class="text">
+             <h2>Hogan Home Improvement</h2>
+              <h3>Quality Local Renovations</h3>
+              <p>Servicing South Lyon, Michigan and it's neighbors.</p>
+          </div>
+
+          <ul class="social">
+             <li><a target="_blank" href="#"><img src="https://i.ibb.co/x7P24fL/facebook.png" alt="Hogan Home Improvement Facebook"></a></li>
+             <li><a target="_blank" href="#"><img src="https://i.ibb.co/Wnxq2Nq/twitter.png" alt="Hogan Home Improvement Twitter"></a></li>
+             <li><a target="_blank" href="#"><img src="https://i.ibb.co/ySwtH4B/instagram.png" alt="Hogan Home Improvement Instagram"></a></li>
+             <li id="copyright"><a target="_blank" href="https://www.jamesrmchenry.com">&copy; 2022 James R McHenry</a></li>
+           </ul>
+        </section>
+
+      <div class="menu">
+         <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="projects.html">Projects</a></li>
+           <li><a href="contact.html">Contact</a></li>
+        </ul>
+        </div>
+            <script>
+              const menuToggle = document.querySelector('.toggle');
+              const showcase = document.querySelector('.showcase');
+            
+              menuToggle.addEventListener('click', () => {
+              menuToggle.classList.toggle('active');
+              showcase.classList.toggle('active');
+            })</script>
+    </body>
+</html>
