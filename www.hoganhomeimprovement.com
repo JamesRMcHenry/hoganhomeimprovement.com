@@ -14,7 +14,7 @@
     <meta property="og:img" content="https://www.hoganhomeimprovement.com/public/imgs/SL%20map.png" />
 
     <link rel="stylesheet" href="public/css/style.css">
-    <title>Hogan Home Improvement!</title>
+    <title>Hogan Home Improvement</title>
 
     <link
     rel="icon"

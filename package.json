@@ -1,7 +1,7 @@
 {
-  "name": "hoganhomes.pro",
+  "name": "hoganhomeimprovement.com",
   "version": "1.0.0",
-  "description": "HoganHomes.pro",
+  "description": "hoganhomeimprovement.com",
   "main": "server.js",
   "scripts": {
     "start": "nodemon server.js",
