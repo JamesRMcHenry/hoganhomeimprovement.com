@@ -8,7 +8,7 @@
     <meta name="keywords" content="South Lyon, Michigan, small business, contractor, repairs, basements, garages, living rooms, upgrades, fixes, refurbishment, custom, bathrooms">
     <meta name="author" content="JamesRMcHenry">
     <meta name="theme-color" content="rgb(251, 73, 5)" />
-    <meta property="og:title" content="HoganHomes.pro" />
+    <meta property="og:title" content="hoganhomeimprovement.com" />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://www.hoganhomeimprovement.com/" />
     <meta property="og:img" content="https://www.hoganhomeimprovement.com/public/imgs/SL%20map.png" />
