@@ -56,7 +56,7 @@ header .logo {
 }
 
 .toggle {
-    position: relative;
+    position: absolute;
     width: 50px;
     height: 50px;
     background : url(https://i.ibb.co/HrfVRcx/menu.png);
