@@ -57,10 +57,10 @@ header .logo {
 
 .toggle {
     position: relative;
+    background-image: url('/public/imgs/Hogan favicon.png');
     width: 50px;
     height: 50px;
-    href= "public/imgs/Hogan favicon.png"
-    background-repeat: no-repeat;
+    background-repeat: 1;
     background-size: 50px;
     background-position: center;
     cursor: pointer;
