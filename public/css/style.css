@@ -56,12 +56,12 @@ header .logo {
 }
 
 .toggle {
-    position: absolute;
+    position: relative;
     width: 50px;
     height: 50px;
-    background : url(https://i.ibb.co/HrfVRcx/menu.png);
+    href= "public/imgs/Hogan favicon.png"
     background-repeat: no-repeat;
-    background-size: 30px;
+    background-size: 50px;
     background-position: center;
     cursor: pointer;
 }
