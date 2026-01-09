@@ -45,7 +45,8 @@
 }
 
 header .logo {
-    background-image: url('/public/imgs/Hogan favicon.png');
+    background-image: url();
+    background-position: center
     color: #fff;
     text-transform: uppercase;
     cursor: pointer;
@@ -59,6 +60,7 @@ header .logo {
 .toggle {
     position: relative;
     background-image: url('/public/imgs/Hogan favicon.png');
+    background-attachment: url('/public/imgs/Hogan favicon.png');
     width: 50px;
     height: 50px;
     background-repeat: 1;
@@ -68,10 +70,11 @@ header .logo {
 }
 
 .toggle.active {
-    background-image: url(public\imgs\Hogan favicon.png);
+    background-image: url('/public/imgs/Hogan favicon.png');
+    background-attachment: url('/public/imgs/Hogan favicon.png');
     background-repeat: no-repeat;
     background-size: 25px;
-    background-position: center;
+    background-position: fixed;
     cursor: pointer;
     background-color: rgb(251, 73, 5);
 }
