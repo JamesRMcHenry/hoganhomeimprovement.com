@@ -67,7 +67,7 @@ header .logo {
 }
 
 .toggle.active {
-    background: url(https://i.ibb.co/rt3HybH/close.png);
+    background-image: url(public\imgs\Hogan favicon.png);
     background-repeat: no-repeat;
     background-size: 25px;
     background-position: center;
