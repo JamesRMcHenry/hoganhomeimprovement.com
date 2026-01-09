@@ -45,6 +45,7 @@
 }
 
 header .logo {
+    background-image: url('/public/imgs/Hogan favicon.png');
     color: #fff;
     text-transform: uppercase;
     cursor: pointer;
